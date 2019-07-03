@@ -2,7 +2,7 @@
 
 es mi primer proyecto profesional de una ***aplicación web progresiva***. con usos de una ***aplicación de una sola pagina*** este proyecto se creo con la capa ui de *ionic*, la capa de codigo de *angular* y la base de datos y hosting de firebase estara como una plantilla en blanco para realizar tantas modificaciones que pueda
 
-[sitio de marca](juliomixtreria.web.app)
+[sitio de marca](https://juliomixtreria.web.app)
 
 ## se debe usar el siguiente commando para instalar los paquetes de nodeJS 
 
