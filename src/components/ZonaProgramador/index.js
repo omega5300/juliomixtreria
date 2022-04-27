@@ -5,28 +5,12 @@ import styles from './index.module.css'
 export default function ZonaProgramador() {
   const photos = [
     {
-      url: 'photos/zona-de-programador-1.JPG',
-      title: 'zona de programador 1',
-    },
-    {
       url: 'photos/zona-de-programador-2.JPG',
       title: 'zona de programador 2',
     },
     {
-      url: 'photos/zona-de-programador-3.JPG',
-      title: 'zona de programador 3',
-    },
-    {
       url: 'photos/zona-de-programador-4.JPG',
       title: 'zona de programador 4',
-    },
-    {
-      url: 'photos/zona-de-programador-5.JPG',
-      title: 'zona de programador 5',
-    },
-    {
-      url: 'photos/zona-de-programador-6.JPG',
-      title: 'zona de programador 6',
     },
     {
       url: 'photos/zona-de-programador-bonus1.JPG',
@@ -35,14 +19,6 @@ export default function ZonaProgramador() {
     {
       url: 'photos/zona-de-programador-bonus2.JPG',
       title: 'zona de programador bonus 2',
-    },
-    {
-      url: 'photos/zona-de-programador-bonus3.JPG',
-      title: 'zona de programador bonus 3',
-    },
-    {
-      url: 'photos/zona-de-programador-special.JPG',
-      title: 'zona de programador special',
     },
   ];
   
