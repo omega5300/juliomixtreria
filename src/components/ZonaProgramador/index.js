@@ -34,7 +34,7 @@ export default function ZonaProgramador() {
       <article className={styles.imgContainer}>
         {
           React.Children.toArray(
-            photos.map(photo => <img className={styles.image} src={photo.url} alt={photo.title} />)
+            photos.map(photo => <img className={styles.image} src={photo.url} alt={photo.title} loading="lazy" />)
           )
         }
       </article>

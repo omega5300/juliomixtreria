@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import Carrousel from '@site/src/components/Carrousel';
 import { SliderData } from '@site/src/components/Carrousel/SliderData';
-import styles from './sublimacion.module.css';
 
 export default function Sublimation() {
   return (

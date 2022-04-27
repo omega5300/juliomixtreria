@@ -1,33 +1,21 @@
 .slider {
   position: relative;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image {
-  height: 480px;
+  height: 460px;
   border-radius: 10px;
 }
 
-.leftArrow {
+.rightArrow, .leftArrow {
   position: absolute;
   top: 50%;
   left: 32px;
   font-size: 3em;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.rightArrow {
-  position: absolute;
-  top: 50%;
-  right: 32px;
-  font-size: 3rem;
-  color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
