@@ -1,0 +1,44 @@
+.title {
+ text-align: center;
+ margin-block: .5em;
+}
+
+.aboutInfo {
+  margin: 6px; 
+  padding: 10px;
+  columns: 2 40rem;
+  column-rule: 1px solid var(--ifm-color-primary);
+}
+
+.desc {
+  margin-inline: 4px;
+}
+
+.links {
+  list-style: "🔗";
+  margin-left: 3rem;
+}
+
+.item {
+  font-size: 1.2em;
+}
+
+.profileImage {
+ display: block;
+ outline: 3px solid var(--ifm-color-primary);
+ border-radius: 15px;
+}
+
+.profile {
+  width: 20rem;
+  margin: 1.5rem auto;
+}
+
+.info {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.info::first-letter {
+  font-size: 2em;
+}

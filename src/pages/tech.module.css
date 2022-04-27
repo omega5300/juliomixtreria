@@ -1,0 +1,43 @@
+:root {
+  --ifm-color-card: rgba(25, 104, 118, 0.11);
+  --ifm-color-shadow: rgba( 22, 94, 106, 0.37 );
+}
+
+[data-theme='dark'] {
+  --ifm-color-card: rgba(169, 197, 234, 0.21);
+  --ifm-color-shadow: rgba( 137, 175, 226, 0.37 );
+}
+
+
+.techCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  margin: 2rem
+}
+
+.card {
+  backdrop-filter: blur(5px);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  background-color: var(--ifm-color-card);
+  border-radius: 15px;
+  border: 2px solid var(--ifm-color-primary);
+  padding-block: 1.5rem;
+}
+
+.card-header {
+  width: 50%;
+  margin-block: 1.5rem;
+  margin-inline: 0;
+}
+
+.cardImage {
+  max-width: 50%;
+  display: block;
+  margin-inline: auto;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 1.8em;
+}

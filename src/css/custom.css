@@ -1,0 +1,63 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #196876;
+  --ifm-color-primary-dark: #165e6a;
+  --ifm-color-primary-darker: #155864;
+  --ifm-color-primary-darkest: #114953;
+  --ifm-color-primary-light: #1b7282;
+  --ifm-color-primary-lighter: #1d7888;
+  --ifm-color-primary-lightest: #218799;
+}
+
+::selection {
+  background-color: var(--ifm-color-primary);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a9c5ea;
+  --ifm-color-primary-dark: #89afe2;
+  --ifm-color-primary-darker: #78a4de;
+  --ifm-color-primary-darkest: #4883d2;
+  --ifm-color-primary-light: #c9dbf2;
+  --ifm-color-primary-lighter: #dae6f6;
+  --ifm-color-primary-lightest: #ffffff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.modal-image-portait, .modal-image-landscape {
+  display: block;
+  margin: auto;
+  outline: 3px solid #2C5364;
+  border-radius: 10px;
+}
+
+.modal-image-landscape {
+  width: 80%;
+  max-width: 640px;
+}
+
+.modal-image-portait {
+  height: 90%;
+  max-height: 480px;
+}

@@ -1,0 +1,16 @@
+.imgContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.imgTitle {
+  color: var(--ifm-color-primary);
+}
+
+.image {
+  max-width: 100%;
+  outline: 3px solid var(--ifm-color-primary);
+  border-radius: 10px;
+}
