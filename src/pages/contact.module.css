@@ -1,0 +1,45 @@
+.btn, .inputField, .msg {
+  all: unset;
+}
+
+.names {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+
+.btn {
+  background-color: var(--ifm-color-primary);
+  width: 80%;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-inline: auto;
+  border-radius: 50px;
+}
+
+.form {
+  margin-inline: auto;
+  padding-block: 1.5rem;
+  width: 50vw;
+}
+
+.inputContainer {
+  border: none;
+}
+
+.msg::placeholder, .inputField::placeholder {
+  color: var(--ifm-color-primary);
+}
+
+.inputField, .msg {
+  font-size: 2em;
+  width: 100%;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.msg {
+  height: 150px;
+  scrollbar-width: thin;
+}

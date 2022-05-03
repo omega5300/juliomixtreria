@@ -157,7 +157,6 @@ export default function Photos() {
           }
         </section>
         <dialog ref={dialog} className={styles.modal}>
-          <span onClick={closeInfo} className={styles.close}>&times;</span>
           <figure className={styles.modalContent}>
             <img className={photoInfo.photoClass} src={photoInfo.image} alt={photoInfo.title} loading="lazy" />
             <figcaption className={styles.modalImageTitle}>
@@ -165,6 +164,12 @@ export default function Photos() {
               <br />
               <em>cámara utilizada: {photoInfo.camera}</em>
             </figcaption>
+            <button 
+            onClick={closeInfo} 
+            className="button button--danger button--block"
+          >
+            close &times;
+          </button>
           </figure>
         </dialog>
       </main>

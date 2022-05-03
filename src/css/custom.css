@@ -47,17 +47,16 @@ dialog::backdrop {
 
 .modal-image-portait, .modal-image-landscape {
   display: block;
+  width: 90%;
   margin: auto;
   outline: 3px solid #2C5364;
   border-radius: 10px;
 }
 
 .modal-image-landscape {
-  width: 80%;
-  max-width: 640px;
+  max-height: 640px;
 }
 
 .modal-image-portait {
-  height: 90%;
   max-height: 480px;
 }
