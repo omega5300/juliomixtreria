@@ -8,6 +8,12 @@
   column-gap: 1.5rem;
 }
 
+.contact {
+  /* columns: 2 40rem; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+}
+
 .btn {
   background-color: var(--ifm-color-primary);
   width: 80%;
@@ -22,7 +28,7 @@
 .form {
   margin-inline: auto;
   padding-block: 1.5rem;
-  width: 50vw;
+  width: 90%;
 }
 
 .inputContainer {
@@ -34,7 +40,7 @@
 }
 
 .inputField, .msg {
-  font-size: 2em;
+  font-size: 0.8em;
   width: 100%;
   border-bottom: 2px solid var(--ifm-color-primary);
 }

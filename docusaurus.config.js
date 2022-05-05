@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require('dotenv').config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -11,6 +13,11 @@ const config = {
   title: 'Juliomixtreria',
   tagline: 'desarrollador multimedia',
   url: 'https://julio-mixtreria.web.app',
+  customFields: {
+    emailID: process.env.EMAIL_ID,
+    templateID: process.env.TEMPLATE_ID,
+    publicKey: process.env.PUBLIC_KEY,
+  },
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -105,7 +112,8 @@ const config = {
           {to: '/tech-projects', label: 'projectos tecnologia', position: 'left'},
           {to: '/sublimacion', label: 'sublimación', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/about', label: 'Acerca de', position: 'left'},
+          {to: '/about', label: 'Sobre mi', position: 'left'},
+          {to: '/contact', label: 'Contacto', position: 'left'},
           {
             href: 'https://github.com/omega5300/juliomixtreria',
             label: 'GitHub',
