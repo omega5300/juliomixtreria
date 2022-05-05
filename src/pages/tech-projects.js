@@ -67,7 +67,7 @@ export default function Home() {
                       src={project.image} 
                       alt={project.name}
                       className={styles.cardImage}
-                      loading="lazy"
+                      loading="eager"
                     />
                     <figcaption className="text--capitalize">
                       {project.desc}

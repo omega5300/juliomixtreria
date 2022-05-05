@@ -46,7 +46,7 @@ export default function About() {
         <section className={styles.aboutInfo}>
         <article className={styles.desc}>
           <figure className={styles.profile}>
-            <img className={styles.profileImage} src="photos/profile.jpeg" alt="sobre mi" loading="lazy" />
+            <img className={styles.profileImage} src="photos/profile.jpeg" alt="sobre mi" loading="eager" />
           </figure>
           <h2 className="text--center text--primary">Descripción</h2>
           <p className={styles.info}>

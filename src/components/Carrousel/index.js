@@ -46,7 +46,7 @@ export default function Carrousel({ slides }) {
                 src={slide.image}
                 alt={slide.mug}
                 className={styles.image}
-                loading="lazy"
+                loading="eager"
               />)
             }
           </article>

@@ -31,7 +31,7 @@ export default function ProjectStars() {
                   src={cardProject.img} 
                   alt={cardProject.title} 
                   class={styles.cardImage} 
-                  loading="lazy"
+                  loading="eager"
                 />
                 <figcaption className={styles.buttons}>
                   <h3 className="text--center">{cardProject.title}</h3>

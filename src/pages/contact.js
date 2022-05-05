@@ -121,7 +121,7 @@ export default function Contact() {
           <button className={styles.btn}>enviar formulario</button>
         </form>
         <figure>
-          <img src="photos/contact-info.webp" alt="contact" />
+          <img src="photos/contact-info.webp" alt="contact" loading="eager" />
           <figcaption className="text--center">déjame un mensaje.</figcaption>
         </figure>
       </section>

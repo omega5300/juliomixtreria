@@ -158,7 +158,7 @@ export default function Photos() {
         </section>
         <dialog ref={dialog} className={styles.modal}>
           <figure className={styles.modalContent}>
-            <img className={photoInfo.photoClass} src={photoInfo.image} alt={photoInfo.title} loading="lazy" />
+            <img className={photoInfo.photoClass} src={photoInfo.image} alt={photoInfo.title} loading="eager" />
             <figcaption className={styles.modalImageTitle}>
               <strong>{photoInfo.title}</strong>
               <br />
