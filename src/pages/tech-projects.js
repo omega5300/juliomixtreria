@@ -51,7 +51,7 @@ export default function Home() {
       <Head>
         <meta name="keywords" content="juliomixtreria, stack-analyze, juliomixtreria tech, neo-jquery, omega5300, omege5300 github" />
         <meta name="robots" content="index,follow" />
-        <base href="/" />
+        <base href="https://julio-mixtreria.web.app" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/tech-projects" />
       </Head>
       <header className="margin-vert--md">

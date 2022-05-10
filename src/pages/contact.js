@@ -53,7 +53,7 @@ export default function Contact() {
     >
       <Head>
         <meta name="noindex, nofollow" />
-        <base href="/" />
+        <base href="https://julio-mixtreria.web.app" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/contact" />
       </Head>
       <h1 className="text--center">contacto</h1>

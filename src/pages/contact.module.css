@@ -36,7 +36,7 @@
 }
 
 .msg::placeholder, .inputField::placeholder {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-base);
 }
 
 .inputField, .msg {

@@ -14,7 +14,7 @@ export default function Sublimation() {
       <Head>
         <meta name="keywords" content="juliomixtreria, juliomixtreria sublimacion, vasos jc" />
         <meta name="robots" content="index, follow" />
-        <base href="/" />
+        <base href="https://julio-mixtreria.web.app" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/sublimacion" />
       </Head>
       <main>
