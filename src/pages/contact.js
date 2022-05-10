@@ -53,11 +53,11 @@ export default function Contact() {
     >
       <Head>
         <meta name="noindex, nofollow" />
+        <base href="/" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/contact" />
       </Head>
       <h1 className="text--center">contacto</h1>
-      <section className={styles.contact}>
-        <form
+      <form
           onSubmit={sendEmail}
           className={styles.form}
         >
@@ -120,11 +120,6 @@ export default function Contact() {
           </fieldset>
           <button className={styles.btn}>enviar formulario</button>
         </form>
-        <figure>
-          <img src="photos/contact-info.webp" alt="contact" loading="eager" />
-          <figcaption className="text--center">déjame un mensaje.</figcaption>
-        </figure>
-      </section>
     </Layout>
   );
 }

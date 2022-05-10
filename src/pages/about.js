@@ -39,6 +39,7 @@ export default function About() {
       <Head>
         <meta name="keywords" content="juliomixtreria, juliomixtreria about, juliomixtreria fotografia, omega5300" />
         <meta name="robots" content="index, follow" />
+        <base href="/" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/about" />
       </Head>
       <main>

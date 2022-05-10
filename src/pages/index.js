@@ -26,6 +26,7 @@ export default function Home() {
       <Head>
         <meta name="keywords" content="portfolio, fotografo, web, mixtreria, juliomixtreria, desarrollo web con juliomixtreria" />
         <meta name="robots" content="index,follow" />
+        <base href="/" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/" />
       </Head>
       <HomepageHeader />

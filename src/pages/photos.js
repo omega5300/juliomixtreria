@@ -145,6 +145,7 @@ export default function Photos() {
       <Head>
         <meta name="keywords" content="juliomixtreria fotografia, juliomixtreria, fotografia" />
         <meta name="robots" content="index, follow" />
+        <base href="/" />
         <link rel="canonical" href="https://julio-mixtreria.web.app/photos" />
       </Head>
       <main>
